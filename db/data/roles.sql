@@ -1,0 +1,3 @@
+INSERT INTO roles VALUES (1,'AGENT',10,'');
+INSERT INTO roles VALUES (2,'USER',10,'');
+INSERT INTO roles VALUES (3,'ADMIN',10,'');
