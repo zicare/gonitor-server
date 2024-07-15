@@ -1,0 +1,1 @@
+INSERT INTO hosts VALUES (DEFAULT,'test_host', '10.0.0.10', 'This is a test host', '{}');

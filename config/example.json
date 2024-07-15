@@ -1,0 +1,45 @@
+{
+    "env": "test",
+    "pepper": "secret-random-string",
+    "hmac_key": "secret-hmac-key",
+    "jwt_duration" : "1h",
+    "tz" : "America/Mexico_City",
+    "server" : {
+        "ip": "127.0.0.1",
+        "domain": "localhost",
+        "port": 8080
+    },
+    "db": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "gonitor",
+        "password": "secret",
+        "name": "gonitor",
+        "max_open_conns": 5
+    },
+    "smtp": {
+        "host": "localhost",
+        "port": 587,
+        "user": "user@localhost",
+        "password": "secret",
+        "retries": 3,
+        "retry_interval": "1m",
+		"timeout": 30000000000
+    },
+    "account": {
+        "pins_length": 5,
+        "pwd_validation": "required,min=8"
+    },
+    "tps": {
+        "precision": 10,
+        "clean_up_cycle": 1,
+        "penalty_factor": 1
+    },
+    "param": {
+        "icpp": 10
+    },
+    "gonitor": {
+        "currency_local": 1,
+        "currency_reference": 2
+    }
+}
